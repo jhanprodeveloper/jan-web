@@ -1,0 +1,15 @@
+.box{
+    height: 200px;
+    width: 150px;
+    background-color: brown;
+    border: 1px solid black;
+    margin: 100px 0 0 500px;
+    transition: 4s;
+}
+.box:hover{
+    /* transform: rotate(180deg); */
+    /* transform: skew(270deg); */
+    /* transform: scale(1.5); */
+    /* transform: translate(600px); */
+    transform: rotate(180deg) skew(360deg) scale(5.5) translate(140px);
+}
